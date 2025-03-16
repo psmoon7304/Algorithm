@@ -5,3 +5,5 @@ Lv1 / 2 / 달리기 경주 / Java / https://school.programmers.co.kr/learn/cours
 Lv1 / 3 / 카드 뭉치 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/159994
 Lv1 / 4 / 가장 가까운 같은 글자 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/142086
 Lv1 / 5 / 과일 장수 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/135808
+Lv1 / 6 / 삼총사 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/131705
+Lv1 / 7 / 콜라 문제 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/132267

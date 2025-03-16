@@ -1,3 +1,7 @@
 [레벨 / 번호 / 문제 이름 / 사용 언어 / 주소]
 
 Lv1 / 1 / 택배 상자 꺼내기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/389478
+Lv1 / 2 / 달리기 경주 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/178871
+Lv1 / 3 / 카드 뭉치 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/159994
+Lv1 / 4 / 가장 가까운 같은 글자 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/142086
+Lv1 / 5 / 과일 장수 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/135808

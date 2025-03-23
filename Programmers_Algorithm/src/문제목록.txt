@@ -1,5 +1,6 @@
 [레벨 / 번호 / 문제 이름 / 사용 언어 / 주소]
 
+[Lv1]
 Lv1 / 1 / 택배 상자 꺼내기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/389478
 Lv1 / 2 / 달리기 경주 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/178871
 Lv1 / 3 / 카드 뭉치 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/159994
@@ -7,3 +8,12 @@ Lv1 / 4 / 가장 가까운 같은 글자 / Java / https://school.programmers.co.
 Lv1 / 5 / 과일 장수 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/135808
 Lv1 / 6 / 삼총사 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/131705
 Lv1 / 7 / 콜라 문제 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/132267
+Lv1 / 8 / 추억 점수 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/176963
+Lv1 / 9 / 공원 산책 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/172928
+Lv1 / 10 / 나머지가 1이 되는 수 찾기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/87389
+Lv1 / 11 / 약수의 합 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12928
+Lv1 / 12 / 시저 암호 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12926
+Lv1 / 13 / 수박수박수박수박수박수? / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12922
+Lv1 / 14 / 행렬의 덧셈 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12950
+Lv1 / 15 / 푸드 파이트 대회 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/134240
+-----------------------------------

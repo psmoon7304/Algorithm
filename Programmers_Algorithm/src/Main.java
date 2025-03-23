@@ -1,6 +1,8 @@
+import lv1.Solution8;
+
 public class Main {
     public static void main(String[] args) {
-        Solution7 run = new Solution7();
-        System.out.println(run.solution(2,1,20));
+        lv1.Solution15 run = new lv1.Solution15();
+        System.out.println(run.solution(new int[] {1, 3, 4, 6}));
     }
 }

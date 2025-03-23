@@ -1,3 +1,5 @@
+package lv1;
+
 import java.util.Arrays;
 
 public class Solution5 {

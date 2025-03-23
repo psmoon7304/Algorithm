@@ -1,3 +1,5 @@
+package lv1;
+
 import java.util.HashMap;
 import java.util.Map;
 

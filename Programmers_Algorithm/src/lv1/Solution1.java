@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution1 {
     public int solution(int n, int w, int num) {
         int boxColumn = (int)Math.ceil((double)n/w);

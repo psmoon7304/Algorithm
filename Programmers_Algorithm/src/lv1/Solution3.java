@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution3 {
     public String solution(String[] cards1, String[] cards2, String[] goal) {
         int cards1Index = 0, cards2Index = 0;

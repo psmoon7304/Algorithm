@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution6 {
     public int solution(int[] number) {
         int answer = 0;

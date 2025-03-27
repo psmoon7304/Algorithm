@@ -16,4 +16,9 @@ Lv1 / 12 / 시저 암호 / Java / https://school.programmers.co.kr/learn/courses
 Lv1 / 13 / 수박수박수박수박수박수? / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12922
 Lv1 / 14 / 행렬의 덧셈 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12950
 Lv1 / 15 / 푸드 파이트 대회 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/134240
+Lv1 / 16 / 유연근무제 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/388351
+Lv1 / 17 / ([PCCP 기출문제] 9번 / 지폐 풀기) / https://school.programmers.co.kr/learn/courses/30/lessons/340199
+Lv1 / 18 / ([PCCP 기출문제] 1번 / 붕대 감기) / https://school.programmers.co.kr/learn/courses/30/lessons/250137
+Lv1 / 19 / ([PCCE 기출문제] 9번 / 이웃한 칸) / https://school.programmers.co.kr/learn/courses/30/lessons/250125
+Lv1 / 20 / ([PCCE 기출문제] 10번 / 데이터 분석) / https://school.programmers.co.kr/learn/courses/30/lessons/250121
 -----------------------------------

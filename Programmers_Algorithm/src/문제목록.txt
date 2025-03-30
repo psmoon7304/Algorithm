@@ -17,8 +17,15 @@ Lv1 / 13 / 수박수박수박수박수박수? / Java / https://school.programmer
 Lv1 / 14 / 행렬의 덧셈 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12950
 Lv1 / 15 / 푸드 파이트 대회 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/134240
 Lv1 / 16 / 유연근무제 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/388351
-Lv1 / 17 / ([PCCP 기출문제] 9번 / 지폐 풀기) / https://school.programmers.co.kr/learn/courses/30/lessons/340199
-Lv1 / 18 / ([PCCP 기출문제] 1번 / 붕대 감기) / https://school.programmers.co.kr/learn/courses/30/lessons/250137
-Lv1 / 19 / ([PCCE 기출문제] 9번 / 이웃한 칸) / https://school.programmers.co.kr/learn/courses/30/lessons/250125
-Lv1 / 20 / ([PCCE 기출문제] 10번 / 데이터 분석) / https://school.programmers.co.kr/learn/courses/30/lessons/250121
+Lv1 / 17 / ([PCCP 기출문제] 9번 / 지폐 풀기) / Java / https://school.programmers.co.kr/learn/courses/30/lessons/340199
+Lv1 / 18 / ([PCCP 기출문제] 1번 / 붕대 감기) / Java / https://school.programmers.co.kr/learn/courses/30/lessons/250137
+Lv1 / 19 / ([PCCE 기출문제] 9번 / 이웃한 칸) / Java / https://school.programmers.co.kr/learn/courses/30/lessons/250125
+Lv1 / 20 / ([PCCE 기출문제] 10번 / 데이터 분석) / Java / https://school.programmers.co.kr/learn/courses/30/lessons/250121
+Lv1 / 21 / 기사단원의 무기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/136798
+Lv1 / 22 / 크기가 작은 부분 문자열 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/147355
+Lv1 / 23 / 덧칠하기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/161989
+Lv1 / 24 / 폰켓몬 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/1845
+Lv1 / 25 / 2016년 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12901
+Lv1 / 26 / 햄버거 만들기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/133502
+Lv1 / 27 / 옹알이 (2) / Java / https://school.programmers.co.kr/learn/courses/30/lessons/133499
 -----------------------------------

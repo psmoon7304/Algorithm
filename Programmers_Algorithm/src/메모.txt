@@ -1,6 +1,7 @@
 HashMap / Key
 
 Map<String, Integer> test = new HashMap<>();
+test.isEmpty() // map이 비어있는지 확인해서 bool값 반환
 test.put();
 test.get(); // 값이 없는 경우 null 반환
 test.getOrDefault(a, 0) // test에서 a라는 key가 존재하는지 보고 있다면 해당 키의 value 반환 없다면 0 출력
@@ -10,6 +11,7 @@ for(String a : name) {
 }
 // a라는 값이 test에 있는지 판단하고 있다면 현재 a라는 키의 벨류를 반환하고 1을 더함
 // 없다면 0으로 반환하고 1을 더함
+test.putIfAbsent(key,value); // Key 값이 존재하는 경우 Map의 Value의 값을 반환하고, Key값이 존재하지 않는 경우 Key와 Value를 Map에 저장하고 Null을 반환
 test.containsKey() // 특정 키가 있는지 판단 get과 다른점은 get은 특정 키가 없다면 null을 반환하지만 containsKey는 bool값을 반환
 test.size()
 
@@ -23,8 +25,14 @@ Math.floor() // 버림
 Math.min(a,b) // a b 중 작은 값
 Math.max(a,b) // a b 중 큰 값
 -------------------------------
-String.valueOf() // 문자열로 전환
+String.contains() // 특정 문자열이 있는지 확인
+String a = "hello";
+a.contains("ll"); // True
+
+String.toCharArray() //문자열을 배열로 전환
+String.valueOf() // 다른 타입을 문자열로 전환
 String.charAt(index) // 문자 하나를 가져옴 (주의 : String 함수임)
+String.split("value"); // 기준 문자를 기점으로 자름 이때 return 타입은 배열
 String.substring(indexA,indexB) // A부터 B까지 값 슬라이싱
 예시)
 String text = "abcdefg";

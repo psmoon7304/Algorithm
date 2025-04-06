@@ -33,5 +33,14 @@ Lv1 / 29 / 최소직사각형 / Java / https://school.programmers.co.kr/learn/co
 Lv1 / 30 / 문자열 나누기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/140108
 Lv1 / 31 / 신고 결과 받기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/92334
 Lv1 / 32 / 크레인 인형뽑기 게임 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/64061
-Lv1 / 33 /
+Lv1 / 33 / 부족한 금액 계산하기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/82612
+Lv1 / 34 / ([PCCE 기출문제] 10번 / 공원) / Java / https://school.programmers.co.kr/learn/courses/30/lessons/340198
+Lv1 / 35 / ([PCCP 기출문제] 1번 / 동영상 재생기) / Javaa / https://school.programmers.co.kr/learn/courses/30/lessons/340213
+Lv1 / 36 / 가운데 글자 가져오기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12903
+Lv1 / 37 / 문자열으 정수로 바꾸기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12925
+Lv1 / 38 / 서울에서 김서방 찾기 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12919
+Lv1 / 39 / 두 정수 사이의 합 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12912
+Lv1 / 40 / 문자열 다루기 기본 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12918
+Lv1 / 41 / 같은 숫자는 싫어 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/12906
+Lv1 / 42 / 숫자 짝꿍 / Java / https://school.programmers.co.kr/learn/courses/30/lessons/131128
 -----------------------------------

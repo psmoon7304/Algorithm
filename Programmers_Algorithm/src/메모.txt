@@ -14,6 +14,8 @@ for(String a : name) {
 test.putIfAbsent(key,value); // Key 값이 존재하는 경우 Map의 Value의 값을 반환하고, Key값이 존재하지 않는 경우 Key와 Value를 Map에 저장하고 Null을 반환
 test.containsKey() // 특정 키가 있는지 판단 get과 다른점은 get은 특정 키가 없다면 null을 반환하지만 containsKey는 bool값을 반환
 test.size()
+test.replace("apple", 200); // replace(key, newValue) 기존에 있을 때만 200으로 바꿈
+test.replace("apple", 100, 200); // replace(key, oldValue, newValue) apple 값이 100일 때만 200으로 바꿈
 
 HashSet<Integer> test = new HashSet<>();
 test.add(); // 중복 요소를 알아서 제거함
@@ -37,6 +39,7 @@ Math.pow(a,b) // a의 b제곱
 Math.min(a,b) // a b 중 작은 값
 Math.max(a,b) // a b 중 큰 값
 -------------------------------
+String 문자열
 String.contains() // 특정 문자열이 있는지 확인
 String a = "hello";
 a.contains("ll"); // True
@@ -58,6 +61,12 @@ text.replace("Good ", ""); // "World"
 
 String text = "Hello World";
 text.indexOf("o"); // 4가 나옴
+
+//문자열 오름차순 정렬 저장법
+String skip = "zebra";
+char[] arr = skip.toCharArray();  // ['z', 'e', 'b', 'r', 'a']
+Arrays.sort(arr);                 // ['a', 'b', 'e', 'r', 'z']
+String sorted = new String(arr);  // "aberz"
 
 -------------------------------
 Integer.parseInt() // Int 타입으로 변환
@@ -83,6 +92,9 @@ rank.add(); // 값 추가
 rank.get(); // 값 출력
 rank.set(index, value); // 인덱스 값을 벨류로 변경
 rank.remove(index); // index에 해당되는 값 삭제
+rank.remove(Integer.valueOf(value)); // int 타입의 value를 찾아서 삭제
+rank.remove("A"); // value를 찾아서 삭제
+rank.removeAll(value); // value를 찾아서 모두 삭제 인자값으로 2개이상 가능
 rank.indexOf(문자, 시작위치); // 특정 문자의 index 반환 (시작위치는 생략가능)
 rank.contains(); // 특정 값이 있는지 bool로 반환
 System.out.println(rank); // Arrays.toString() 처럼 출력

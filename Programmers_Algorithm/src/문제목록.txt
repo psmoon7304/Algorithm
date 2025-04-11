@@ -46,4 +46,9 @@ Lv1 / 42 / 숫자 짝꿍 / https://school.programmers.co.kr/learn/courses/30/les
 Lv1 / 43 / 개인정보 수집 유효기간 / https://school.programmers.co.kr/learn/courses/30/lessons/150370
 Lv1 / 44 / 대충 만든 자판 / https://school.programmers.co.kr/learn/courses/30/lessons/160586
 Lv1 / 45 / 둘만의 암호 / https://school.programmers.co.kr/learn/courses/30/lessons/155652
+Lv1 / 46 / 명예의 전당 (1) / https://school.programmers.co.kr/learn/courses/30/lessons/138477 // 우선순위 큐 다시 풀어볼 것
+Lv1 / 47 / 약수의 개수와 덧셈 / https://school.programmers.co.kr/learn/courses/30/lessons/77884
+Lv1 / 48 / 음양 더하기 / https://school.programmers.co.kr/learn/courses/30/lessons/76501
+Lv1 / 49 / 예산 / https://school.programmers.co.kr/learn/courses/30/lessons/12982
+Lv1 / 50 / 두 개 뽑아서 더하기 / https://school.programmers.co.kr/learn/courses/30/lessons/68644
 -----------------------------------

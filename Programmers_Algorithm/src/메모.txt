@@ -1,3 +1,6 @@
+.getClass().getName() // 타입확인
+
+-------------------------------
 HashMap / Key
 
 Map<String, Integer> test = new HashMap<>();
@@ -36,6 +39,8 @@ Math.ceil() // 올림
 Math.round() // 반올림
 Math.floor() // 버림
 Math.pow(a,b) // a의 b제곱
+Math.sqrt(a) // a의 제곱근 구함 -> 반환타입 double
+Math.abs() // 절대값
 Math.min(a,b) // a b 중 작은 값
 Math.max(a,b) // a b 중 큰 값
 -------------------------------
@@ -44,6 +49,8 @@ String.contains() // 특정 문자열이 있는지 확인
 String a = "hello";
 a.contains("ll"); // True
 
+String.toLowerCase() // 문자열을 소문자로 전환
+String.toUpperCase() // 문자열을 대문자로 전환
 String.toCharArray() //문자열을 배열로 전환
 String.valueOf() // 다른 타입을 문자열로 전환
 String.charAt(index) // 문자 하나를 가져옴 (주의 : String 함수임)
@@ -98,6 +105,10 @@ rank.removeAll(value); // value를 찾아서 모두 삭제 인자값으로 2개�
 rank.indexOf(문자, 시작위치); // 특정 문자의 index 반환 (시작위치는 생략가능)
 rank.contains(); // 특정 값이 있는지 bool로 반환
 System.out.println(rank); // Arrays.toString() 처럼 출력
+
+//배열에서 substring / 슬라이싱 사용하기
+int[] arr = {0, 1, 2, 3, 4, 5};
+int[] arr1 = Arrays.copyOfRange(arr, 0, position); // 0부터 position 앞 요소까지만 복사
 
 일반 배열에서 ArrayList 함수 사용하기
 String[] arr = {"a","b","c"};

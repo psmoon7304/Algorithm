@@ -51,4 +51,14 @@ Lv1 / 47 / 약수의 개수와 덧셈 / https://school.programmers.co.kr/learn/c
 Lv1 / 48 / 음양 더하기 / https://school.programmers.co.kr/learn/courses/30/lessons/76501
 Lv1 / 49 / 예산 / https://school.programmers.co.kr/learn/courses/30/lessons/12982
 Lv1 / 50 / 두 개 뽑아서 더하기 / https://school.programmers.co.kr/learn/courses/30/lessons/68644
+Lv1 / 51 / 짝수와 홀수 / https://school.programmers.co.kr/learn/courses/30/lessons/12937
+Lv1 / 52 / K번째수 / https://school.programmers.co.kr/learn/courses/30/lessons/42748
+Lv1 / 53 / 완주하지 못한 선수 / https://school.programmers.co.kr/learn/courses/30/lessons/42576
+Lv1 / 54 / 하샤드 수 / https://school.programmers.co.kr/learn/courses/30/lessons/12947
+Lv1 / 55 / 제일 작은 수 제거하기 / https://school.programmers.co.kr/learn/courses/30/lessons/12935
+Lv1 / 56 / 정수 제곱근 판별 / https://school.programmers.co.kr/learn/courses/30/lessons/12934
+Lv1 / 57 / 문자열 내 p와 y의 개수 / https://school.programmers.co.kr/learn/courses/30/lessons/12916
+Lv1 / 58 / x만큼 간격이 있는 n개의 숫자 / https://school.programmers.co.kr/learn/courses/30/lessons/12954
+Lv1 / 59 / 모의고사 / https://school.programmers.co.kr/learn/courses/30/lessons/42840
+Lv1 / 60 / 키패드 누르 / https://school.programmers.co.kr/learn/courses/30/lessons/67256
 -----------------------------------

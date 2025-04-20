@@ -2,8 +2,8 @@ import lv1.Solution8;
 
 public class Main {
     public static void main(String[] args) {
-        lv1.Solution60 run = new lv1.Solution60();
+        lv1.Solution78 run = new lv1.Solution78();
         //System.out.println(run.solution());
-        System.out.println(run.solution(new int[] {4,2}, "right"));
+        System.out.println(run.solution(2, new int[] {1,1,1,1,1}));
     }
 }

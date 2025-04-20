@@ -61,4 +61,24 @@ Lv1 / 57 / 문자열 내 p와 y의 개수 / https://school.programmers.co.kr/lea
 Lv1 / 58 / x만큼 간격이 있는 n개의 숫자 / https://school.programmers.co.kr/learn/courses/30/lessons/12954
 Lv1 / 59 / 모의고사 / https://school.programmers.co.kr/learn/courses/30/lessons/42840
 Lv1 / 60 / 키패드 누르 / https://school.programmers.co.kr/learn/courses/30/lessons/67256
+Lv1 / 61 / 숫자 문자열과 영단어 / https://school.programmers.co.kr/learn/courses/30/lessons/81301
+Lv1 / 62 / 성격 유형 검사하기 / https://school.programmers.co.kr/learn/courses/30/lessons/118666
+Lv1 / 63 / 나누어 떨어지는 숫자 배열 / https://school.programmers.co.kr/learn/courses/30/lessons/12910
+Lv1 / 64 / 로또의 최고 순위와 최저 순위 / https://school.programmers.co.kr/learn/courses/30/lessons/77484 // 스트림 boxed 사용
+Lv1 / 65 / 직사각형 별찍기 / https://school.programmers.co.kr/learn/courses/30/lessons/12969
+Lv1 / 66 / 소수 찾기 / https://school.programmers.co.kr/learn/courses/30/lessons/12921
+Lv1 / 67 / 자연수 뒤집어 배열로 만들기 / https://school.programmers.co.kr/learn/courses/30/lessons/12932
+Lv1 / 68 / 자릿수 더하기 / https://school.programmers.co.kr/learn/courses/30/lessons/12931
+Lv1 / 69 / 평균 구하기 / https://school.programmers.co.kr/learn/courses/30/lessons/12944
+Lv1 / 70 / 핸드폰 번호 가리기 / https://school.programmers.co.kr/learn/courses/30/lessons/12948
+Lv1 / 71 / 콜라츠 추측 / https://school.programmers.co.kr/learn/courses/30/lessons/12943
+Lv1 / 72 / 소수 만들기 / https://school.programmers.co.kr/learn/courses/30/lessons/12977
+Lv1 / 73 / 정수 내림차순으로 배치하기 / https://school.programmers.co.kr/learn/courses/30/lessons/12933
+Lv1 / 74 / 체육복 / https://school.programmers.co.kr/learn/courses/30/lessons/42862
+Lv1 / 75 / [1차] 다트 게임 / https://school.programmers.co.kr/learn/courses/30/lessons/17682
+Lv1 / 76 / [1차] 비밀지도 / https://school.programmers.co.kr/learn/courses/30/lessons/17681
+Lv1 / 77 / 3진법 뒤집기 / https://school.programmers.co.kr/learn/courses/30/lessons/68935
+Lv1 / 78 / 실패율 / https://school.programmers.co.kr/learn/courses/30/lessons/42889
+Lv1 / 79 / 내적 / https://school.programmers.co.kr/learn/courses/30/lessons/70128
+Lv1 / 80 / 신규 아이디 추천 / https://school.programmers.co.kr/learn/courses/30/lessons/72410
 -----------------------------------

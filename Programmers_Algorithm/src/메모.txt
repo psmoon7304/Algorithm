@@ -154,3 +154,8 @@ rank.set(1,"A");
 System.out.println(Arrays.toString(arr));
 
 -> arr은 A B C rank는 A A C로 바뀌게 된다.
+
+// 정수형 배열을 list로 만드는 법과 list 오름차순 정렬
+int[] lost
+List<Integer> list = Arrays.stream(lost).boxed().collect(Collectors.toList());
+Collections.sort(list);

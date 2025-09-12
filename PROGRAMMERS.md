@@ -1110,9 +1110,24 @@
 
 - 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/181188)
 - 난이도: Lv2
-- 시작 날짜 :
+- 시작 날짜 : (풀다가 말았음)
 - 완료 날짜 :
 </details>
+
+---
+
+ <details>
+  <summary>
+   <h3> 4번 - [PCCP 기출문제] 2번 / 석유 시추 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/250136)
+- 난이도: Lv2
+- 시작 날짜 : 2025년 09월 12일
+- 완료 날짜 : 2025년 09월 12일
+</details>
+
+---
 
 </details>
 

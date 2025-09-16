@@ -1133,4 +1133,24 @@
 
 ---
 
+<details>
+<summary><h2>[Lv3] 문제 목록</h2></summary>
+
+ <details>
+  <summary>
+   <h3> 1번 - 등대 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/133500)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 09월 16일
+- 완료 날짜 : 2025년 09월 16일
+  </details>
+
+---
+
+</details>
+
+---
+
 </details>

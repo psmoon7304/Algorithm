@@ -35,6 +35,6 @@ public class Main_1461 {
 
     public static void main(String[] args) throws Exception {
         init();
-        if(N < M)
+        //if(N < M)
     }
 }

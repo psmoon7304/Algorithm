@@ -775,7 +775,7 @@
 
  <details>
   <summary>
-   <h3> 60번 - 키패드 누르 </h3>
+   <h3> 60번 - 키패드 누르기 </h3>
   </summary>
 
 - 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/67256)

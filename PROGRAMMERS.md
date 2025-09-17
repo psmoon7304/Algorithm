@@ -1129,6 +1129,19 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 5번 - 주차 요금 계산 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
+- 난이도: Lv2
+- 시작 날짜 : 2025년 09월 17일
+- 완료 날짜 : 2025년 09월 17일
+</details>
+
+---
+
 </details>
 
 ---

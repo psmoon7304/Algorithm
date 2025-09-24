@@ -1175,6 +1175,19 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 2번 - 숫자 게임 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/12987)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 09월 24일
+- 완료 날짜 : 2025년 09월 24일
+</details>
+
+---
+
 </details>
 
 ---

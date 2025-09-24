@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Solution2 {
     static int answer = 0;
     static boolean[] isUsed;
-
     public int solution(int[] A, int[] B) {
         Arrays.sort(A);
         Arrays.sort(B);

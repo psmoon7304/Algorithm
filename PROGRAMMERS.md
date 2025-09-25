@@ -1188,6 +1188,19 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 3번 - 단속카메라 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/42884)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 09월 25일
+- 완료 날짜 : 2025년 09월 25일
+</details>
+
+---
+
 </details>
 
 ---

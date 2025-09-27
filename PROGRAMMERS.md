@@ -1201,6 +1201,19 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 4번 - 최고의 집합 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/12938)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 09월 25일
+- 완료 날짜 : 2025년 09월 26일
+</details>
+
+---
+
 </details>
 
 ---

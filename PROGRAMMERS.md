@@ -1070,6 +1070,10 @@
 - 완료 날짜 :
 </details>
 
+---
+
+<h3> Lv1 마지막
+
 </details>
 
 ---
@@ -1155,6 +1159,21 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 7번 - 두 큐 합 같게 만들기 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+- 난이도: Lv2
+- 시작 날짜 : 2025년 10월 15일
+- 완료 날짜 : 2025년 10월 15일
+</details>
+
+---
+
+<h3> Lv2 마지막
+
 </details>
 
 ---
@@ -1213,6 +1232,8 @@
 </details>
 
 ---
+
+<h3> Lv3 마지막
 
 </details>
 

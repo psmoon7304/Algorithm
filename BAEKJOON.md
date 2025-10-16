@@ -659,6 +659,21 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 11659번 - 구간 합 구하기 4</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/11659)
+- 문제 유형:
+  - 
+- 난이도: 실버 3
+- 시작 날짜 : 2025년 10월 16일
+- 완료 날짜 : 
+</details>
+
+---
+
 <h3> 실버 마지막
 
 </details>

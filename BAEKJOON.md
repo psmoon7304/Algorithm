@@ -690,6 +690,21 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 2559번 - 수열</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/2559)
+- 문제 유형:
+  - 
+- 난이도: 실버 3
+- 시작 날짜 : 2025년 10월 16일
+- 완료 날짜 : 
+</details>
+
+---
+
 <h3> 실버 마지막
 
 </details>

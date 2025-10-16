@@ -1233,6 +1233,32 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 5번 - 파괴되지 않은 건물 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 10월 15일
+- 완료 날짜 : 2025년 월 일
+</details>
+
+---
+
+ <details>
+  <summary>
+   <h3> 6번 - 다단계 칫솔 판매 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/77486)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 10월 15일
+- 완료 날짜 : 2025년 10월 15일
+</details>
+
+---
+
 <h3> Lv3 마지막
 
 </details>

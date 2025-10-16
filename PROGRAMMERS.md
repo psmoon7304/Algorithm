@@ -1241,7 +1241,7 @@
 - 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
 - 난이도: Lv3
 - 시작 날짜 : 2025년 10월 15일
-- 완료 날짜 : 2025년 월 일
+- 완료 날짜 : 2025년 10월 16일
 </details>
 
 ---

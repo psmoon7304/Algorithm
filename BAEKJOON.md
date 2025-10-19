@@ -794,4 +794,28 @@
 
 ---
 
+<details>
+<summary><h2>[BRONZE] 문제 목록</h2></summary>
+
+ <details>
+  <summary>
+   <h3> 2851번 - 슈퍼 마리오 </h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/2851)
+- 문제 유형:
+  - 
+- 난이도: 브론즈 1
+- 과제 날짜 : 2025년 10월 19일
+- 과제 완료 날짜 : 
+</details>
+
+---
+
+<h3> 브론즈 마지막
+
+</details>
+
+---
+
 </details>

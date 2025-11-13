@@ -1272,6 +1272,19 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 8번 - [1차] 셔틀버스 </h3>
+  </summary>
+
+- 출처: [ 프로그래머스 ](https://school.programmers.co.kr/learn/courses/30/lessons/17678?language=java)
+- 난이도: Lv3
+- 시작 날짜 : 2025년 11월 12일
+- 완료 날짜 : 2025년 11월 13일
+</details>
+
+---
+
 <h3> Lv3 마지막 </h3>
 
 </details>

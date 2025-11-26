@@ -523,6 +523,37 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 23559번 - 밥</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/23559)
+- 문제 유형:
+  - 그리디 알고리즘
+  - 정렬
+- 난이도: 골드 5
+- 시작 날짜 : 2025년 11월 26일
+- 완료 날짜 : 2025년 11월 26일
+</details>
+
+---
+
+ <details>
+  <summary>
+   <h3> 19236번 - 청소년 상어</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/19236)
+- 문제 유형:
+  - 
+- 난이도: 골드 1
+- 시작 날짜 : 2025년 11월 25일
+- 완료 날짜 :
+</details>
+
+---
+
 <h3> 골드 마지막 </h3>
 
 </details>

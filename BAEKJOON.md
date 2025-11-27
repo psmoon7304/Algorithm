@@ -541,6 +541,22 @@
 
  <details>
   <summary>
+   <h3> 20437번 - 문자열 게임 2</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/20437)
+- 문제 유형:
+  - 문자열
+  - 슬라이딩 윈도우
+- 난이도: 골드 5
+- 시작 날짜 : 2025년 11월 27일
+- 완료 날짜 : 2025년 11월 27일
+</details>
+
+---
+
+ <details>
+  <summary>
    <h3> 19236번 - 청소년 상어</h3>
   </summary>
 

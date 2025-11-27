@@ -1,66 +1,43 @@
 import java.io.*;
-import java.util.*;
 
 public class Main_Study {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static StringTokenizer st;
+    static StringBuilder sb = new StringBuilder();
 
-    static int N, X, answer, useMoney;
-    static int[][] menu;
-    static int[][] info;
+    static int T, K;
+    static int[][] alphaInfo;
+    static int[] alphaCount;
+    static char[] W;
 
-    private static void getResult() {
-        for(int i = 0; i < N; i++) {
-            if(info[i][0] == Integer.MAX_VALUE) break;
-            useMoney -= 4000;
-            answer -= menu[info[i][1]][0];
-            answer += menu[info[i][1]][1];
-
-            if(useMoney <= X) {
-                return;
-            }
+    private static void searchWord() {
+        int[] answer = {10001, -1};
+        for(int i = 0; i < W.length; i++) {
+            int pointer = W[i] - 97;
+            alphaCount[pointer]++;
+            int alphaC = alphaCount[pointer];
+            alphaInfo[pointer][(alphaC - 1) % K] = i;
+            if(alphaC < K) continue;
+            int temp = alphaInfo[pointer][(alphaC - 1) % K] - alphaInfo[pointer][(alphaC % K)] + 1;
+            answer[0] = Math.min(answer[0], temp);
+            answer[1] = Math.max(answer[1], temp);
         }
+        if(answer[0] == 10001 || answer[1] == -1) sb.append(-1).append("\n");
+        else sb.append(answer[0]).append(" ").append(answer[1]).append("\n");
     }
 
     private static void init() throws Exception {
-        st = new StringTokenizer(br.readLine().trim());
-        N = Integer.parseInt(st.nextToken());
-        X = Integer.parseInt(st.nextToken());
-
-        menu = new int[N][2];
-        info = new int[N][2];
-
-        for(int i = 0; i < N; i++) {
-            st = new StringTokenizer(br.readLine().trim());
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-            menu[i][0] = a;
-            menu[i][1] = b;
-            if(a <= b) {
-                answer += menu[i][1];
-                useMoney += 1000;
-            } else {
-                answer += menu[i][0];
-                useMoney += 5000;
-            }
-            if(a - b <= 0) info[i] = new int[] {Integer.MAX_VALUE, i};
-            else info[i] = new int[] {a - b, i};
-        }
-        Arrays.sort(info, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] - o2[0];
-            }
-        });
+        W = br.readLine().trim().toCharArray();
+        K = Integer.parseInt(br.readLine().trim());
+        alphaInfo = new int[26][K];
+        alphaCount = new int[26];
     }
 
     public static void main(String[] args) throws Exception {
-        init();
-        if(useMoney <= X) {
-            System.out.print(answer);
-            return;
+        T = Integer.parseInt(br.readLine().trim());
+        for(int tc = 0; tc < T; tc++) {
+            init();
+            searchWord();
         }
-        getResult();
-        System.out.print(answer);
+        System.out.print(sb.toString());
     }
 }

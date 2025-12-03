@@ -557,6 +557,25 @@
 
  <details>
   <summary>
+   <h3> 3190번 - 뱀</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/3190)
+- 문제 유형:
+  - 구현
+  - 자료 구조
+  - 시뮬레이션
+  - 덱
+  - 큐
+- 난이도: 골드 4
+- 시작 날짜 : 2025년 12월 03일
+- 완료 날짜 : 2025년 12월 03일
+</details>
+
+---
+
+ <details>
+  <summary>
    <h3> 19236번 - 청소년 상어</h3>
   </summary>
 

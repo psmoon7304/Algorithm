@@ -576,6 +576,21 @@
 
  <details>
   <summary>
+   <h3> 2573번 - 빙산</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/2573)
+- 문제 유형:
+  - 
+- 난이도: 골드 4
+- 시작 날짜 : 2025년 12월 04일
+- 완료 날짜 : 2025년 12월 04일
+</details>
+
+---
+
+ <details>
+  <summary>
    <h3> 19236번 - 청소년 상어</h3>
   </summary>
 

@@ -17,7 +17,23 @@ public class Main_14503 {
     static int[] dc = {0, 1, 0, -1};
 
     private static void getResult(int r, int c, int d) {
+        if(map[r][c] == 0) {
+            map[r][c] = -1;
+            answer++;
+        }
 
+        int pointer;
+        for(int i = 1; i <= 4; i++) {
+            pointer = (d - i + 4) % 4;
+            if(map[r + dr[pointer]][c + dc[pointer]] == 0) {
+                getResult(r + dr[pointer], c + dc[pointer], pointer);
+                return;
+            }
+        }
+
+        pointer = (d + 2) % 4;
+        if(map[r + dr[pointer]][c + dc[pointer]] == 1) return;
+        getResult(r + dr[pointer], c + dc[pointer], d);
     }
 
     private static void init() throws Exception {

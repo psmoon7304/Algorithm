@@ -725,6 +725,21 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 15686번 - 치킨 배달</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/15686)
+- 문제 유형:
+  - 
+- 난이도: 골드 5
+- 시작 날짜 : 2026년 01월 13일
+- 완료 날짜 : 
+</details>
+
+---
+
 <h3> 골드 마지막 </h3>
 
 </details>

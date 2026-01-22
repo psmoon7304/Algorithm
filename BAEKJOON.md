@@ -742,6 +742,21 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 20010번 - 악덕 영주 혜유 </h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/20010)
+- 문제 유형:
+  - 
+- 난이도: 골드 2
+- 시작 날짜 : 2026년 01월 22일
+- 완료 날짜 : 
+</details>
+
+---
+
 <h3> 골드 마지막 </h3>
 
 </details>

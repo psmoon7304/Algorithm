@@ -1,4 +1,4 @@
-package Baekjoon.Gold;
+package Baekjoon.Gold.Main_13549;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

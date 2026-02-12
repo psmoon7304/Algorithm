@@ -26,10 +26,11 @@ public class Main_1238 {
 
     static PriorityQueue<Node> pq;
     static ArrayList<Node>[] list;
+    static ArrayList<Node>[] reverseList;
     static int[] dijkMap;
     static int N, M, X;
 
-    private static int dijk(int start, int end) {
+    private static int[] dijk(ArrayList<Node>[] list, int start) {
         dijkMap = new int[N + 1];
         Arrays.fill(dijkMap, Integer.MAX_VALUE);
         pq.clear();
@@ -40,7 +41,6 @@ public class Main_1238 {
         while(!pq.isEmpty()) {
             Node n = pq.poll();
             if(dijkMap[n.e] < n.w) continue;
-            if(n.e == end) return dijkMap[end];
 
             for(Node temp : list[n.e]) {
                 if(dijkMap[temp.e] < dijkMap[n.e] + temp.w) continue;
@@ -48,7 +48,7 @@ public class Main_1238 {
                 pq.offer(new Node(temp.e, dijkMap[n.e] + temp.w));
             }
         }
-        return dijkMap[end];
+        return dijkMap;
     }
 
 
@@ -60,7 +60,11 @@ public class Main_1238 {
 
         pq = new PriorityQueue<>();
         list = new ArrayList[N + 1];
-        for(int i = 1; i <= N; i++) list[i] = new ArrayList<>();
+        reverseList = new ArrayList[N + 1];
+        for(int i = 1; i <= N; i++) {
+            list[i] = new ArrayList<>();
+            reverseList[i] = new ArrayList<>();
+        }
 
         for(int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine().trim());
@@ -68,14 +72,17 @@ public class Main_1238 {
             int e = Integer.parseInt(st.nextToken());
             int w = Integer.parseInt(st.nextToken());
             list[s].add(new Node(e, w));
+            reverseList[e].add(new Node(s, w));
         }
     }
 
     public static void main(String[] args) throws Exception {
         init();
         int answer = 0;
+        int[] dijk = dijk(list, X);
+        int[] reverseDijk = dijk(reverseList, X);
         for(int i = 1; i <= N; i++) {
-            answer = Math.max(answer, dijk(i, X) + dijk(X, i));
+            answer = Math.max(answer, dijk[i] + reverseDijk[i]);
         }
         System.out.print(answer);
     }

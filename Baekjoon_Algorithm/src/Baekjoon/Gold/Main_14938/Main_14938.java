@@ -30,12 +30,14 @@ public class Main_14938 {
     static int[] item;
     static int N, M, R;
 
-    private static int dijk(int start) {
+    private static int dijk(int start, int[] tempItem) {
         dijkMap = new int[N + 1];
+        int[] copyItem = tempItem.clone();
         Arrays.fill(dijkMap, Integer.MAX_VALUE);
         pq.clear();
         dijkMap[start] = 0;
-        int answer = item[start];
+        int answer = copyItem[start];
+        copyItem[start] = 0;
         pq.offer(new Node(start, 0));
 
         while(!pq.isEmpty()) {
@@ -44,7 +46,8 @@ public class Main_14938 {
             for(Node temp : list[node.e]) {
                 if(dijkMap[temp.e] <= dijkMap[node.e] + temp.w || dijkMap[node.e] + temp.w > M) continue;
                 dijkMap[temp.e] = dijkMap[node.e] + temp.w;
-                answer += item[temp.e];
+                answer += copyItem[temp.e];
+                copyItem[temp.e] = 0;
                 pq.offer(new Node(temp.e, dijkMap[node.e] + temp.w));
             }
         }
@@ -78,7 +81,7 @@ public class Main_14938 {
         init();
         int answer = 0;
         for(int i = 1; i <= N; i++) {
-            answer = Math.max(answer, dijk(i));
+            answer = Math.max(answer, dijk(i, item));
         }
         System.out.print(answer);
     }

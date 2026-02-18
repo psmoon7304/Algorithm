@@ -970,6 +970,21 @@
 
 ---
 
+ <details>
+  <summary>
+   <h3> 20926번 - 얼음 미로</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/20926)
+- 문제 유형:
+  - 
+- 난이도: 골드 2
+- 시작 날짜 : 2026년 02월 16일
+- 완료 날짜 :
+</details>
+
+---
+
 <h3> 골드 마지막 </h3>
 
 </details>

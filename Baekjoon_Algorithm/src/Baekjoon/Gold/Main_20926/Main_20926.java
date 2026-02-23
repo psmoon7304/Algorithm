@@ -3,7 +3,6 @@ package Baekjoon.Gold.Main_20926;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-import java.util.Arrays;
 import java.util.PriorityQueue;
 
 class Node implements Comparable<Node> {
@@ -13,7 +12,6 @@ class Node implements Comparable<Node> {
         this.w = w;
     }
 
-    @Override
     public int compareTo(Node o) {
         return this.w - o.w;
     }
@@ -22,28 +20,71 @@ class Node implements Comparable<Node> {
 public class Main_20926 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
-
     static PriorityQueue<Node> pq = new PriorityQueue<>();
-    static int W, H;
-    static int[] dr = {-1, 0, 1, 0};
-    static int[] dc = {0, 1, 0 ,-1};
-    static int[][] map; //T : -1, R : -2, H : Integer.MAX_VALUE, E : -99
-    static int player, escape;
 
-    private static int createMap(char tempChar, int i, int j) {
-        int value = tempChar - '0';
-        if(tempChar == 'T') {
-            player = i * W + j;
-            value = -1;
-        } else if(tempChar == 'E') {
-            escape = i * W + j;
-            value = -99;
-        } else if(tempChar == 'R') {
-            value = -2;
-        } else if(tempChar == 'H') {
-            value = Integer.MAX_VALUE;
+    static char[] map;
+    static int[] player;
+
+    static int[] dijkMap;
+    static int[] dr = {-1, 0, 1, 0};
+    static int[] dc = {0, 1, 0, -1};
+    static int W, H;
+
+    private static int dijk() {
+        int startPos = convertToIndex(player[0], player[1]);
+        dijkMap[startPos] = 0;
+        pq.offer(new Node(startPos, 0));
+
+        while(!pq.isEmpty()) {
+            Node now = pq.poll();
+            if(dijkMap[now.e] < now.w) continue;
+            if(map[now.e] == 'E') return now.w;
+            int[] nowPos = convertToPos(now.e);
+
+            for(int i = 0; i < 4; i++) {
+                int r = nowPos[0];
+                int c = nowPos[1];
+                int sumW = 0;
+                int check = 0;
+                while(true) {
+                    r += dr[i];
+                    c += dc[i];
+                    int index = convertToIndex(r, c);
+                    if(!checked(r, c) || map[index] == 'H') break;
+                    else if(map[index] == 'E') {
+                        check = 1;
+                        break;
+                    } else if(map[index] == 'R') {
+                        r -= dr[i];
+                        c -= dc[i];
+                        check = 1;
+                        break;
+                    }
+                    sumW += map[index] - '0';
+                }
+                if(check == 1) {
+                    int index = convertToIndex(r, c);
+                    if(dijkMap[index] <= now.w + sumW) continue;
+                    dijkMap[index] = now.w + sumW;
+                    pq.offer(new Node(index, now.w + sumW));
+                }
+            }
+
+
         }
-        return value;
+        return -1;
+    }
+
+    private static boolean checked(int r, int c) {
+        return r >= 0 && r < H && c >= 0 && c < W;
+    }
+
+    private static int convertToIndex(int r, int c) {
+        return r * W + c;
+    }
+
+    private static int[] convertToPos(int index) {
+        return new int[] {index / W, index % W};
     }
 
     private static void init() throws Exception {
@@ -51,31 +92,23 @@ public class Main_20926 {
         W = Integer.parseInt(st.nextToken());
         H = Integer.parseInt(st.nextToken());
 
-        map = new int[H][W];
+        map = new char[W * H];
+
+
+        dijkMap = new int[W * H];
 
         for(int i = 0; i < H; i++) {
-            char[] mapInfo = br.readLine().toCharArray();
+            char[] mapValue = br.readLine().toCharArray();
             for(int j = 0; j < W; j++) {
-                char tempChar = mapInfo[j];
-                map[i][j] = createMap(tempChar, i, j);
+                if(mapValue[j] == 'T') player = new int[] {i, j};
+                dijkMap[i * W + j] = Integer.MAX_VALUE;
+                map[i * W + j] = mapValue[j];
             }
         }
     }
 
     public static void main(String[] args) throws Exception {
         init();
+        System.out.print(dijk());
     }
 }
-
-/*
-    미끌어지며 이동하는 경우, 돌이 없으면 멈추지 못해서 맵 밖으로 나가게 됨 < 이거 중요 >
-    출구로 들어가는 경우, 출구의 미끌 시간은 포함 x
-    한쪽 방향으로 이동을 시작하면 시작 빙판의 미끌 시간은 포함 x
-
-    그렇다면 delta 서치를 통해서 해당 방향에 돌이 있는지 확인, 없다면 못감
-
-    그럼 입력받을 때 돌들의 위치를 별도로 저장
-    E, R 위치들 다 저장
-    출발할때 가려는 방향에 E나 R이 없다면 못감
-    있다면 갈 방향의 가중치들을 다 계산, PQ사용
- */

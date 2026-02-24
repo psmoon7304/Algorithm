@@ -8,33 +8,35 @@ public class Main_15678 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
 
-    static int N, D, firstPointer, lastPointer;
+    static int N, D, pos, firstPointer, lastPointer;
     static int[] numList;
     static int[] indexList;
     static boolean[] isVisited;
 
     private static Long getAnswer() throws Exception {
         Long answer = 0L;
+        Long realAnswer = Long.MIN_VALUE;
         st = new StringTokenizer(br.readLine().trim());
-        for(int i = 0; i <= N; i++) {
-            if(i != 0) {
-                int value = Integer.parseInt(st.nextToken());
-                numList[i] = value;
-            }
-            while(firstPointer < lastPointer && numList[indexList[lastPointer - 1]] <= numList[i]) {
-                lastPointer--;
-            }
-            indexList[lastPointer++] = i;
-            if(indexList[firstPointer] <= i - D) {
-                firstPointer++;
-            }
-            if(!isVisited[indexList[firstPointer]]) {
-                isVisited[indexList[firstPointer]] = true;
-                System.out.println(numList[indexList[firstPointer]]);
-                answer += numList[indexList[firstPointer]];
+        for(int i = 1; i <= N; i++) {
+            int value = Integer.parseInt(st.nextToken());
+            numList[i] = value;
+            if(value >= 0) {
+                pos = i;
+                answer += value;
+                realAnswer = Math.max(answer ,realAnswer);
+            } else {
+                while(firstPointer < lastPointer && numList[indexList[lastPointer - 1]] <= numList[i]) {
+                    lastPointer--;
+                }
+                indexList[lastPointer++] = i;
+                if(pos <= i - D) {
+                    pos = indexList[firstPointer];
+                    answer += numList[indexList[firstPointer++]];
+                    realAnswer = Math.max(answer ,realAnswer);
+                }
             }
         }
-        return answer;
+        return realAnswer;
     }
 
     private static void init() throws Exception {

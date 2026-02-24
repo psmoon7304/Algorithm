@@ -4,6 +4,30 @@
 ---
 
 <details>
+<summary><h2>[PLATINUM] 문제 목록</h2></summary>
+
+ <details>
+  <summary>
+   <h3> 15678번 - 연세워터파크</h3>
+  </summary>
+
+- 출처: [ 백준 ](https://www.acmicpc.net/problem/15678)
+- 문제 유형:
+  - 
+- 난이도: 플래티넘 5
+- 시작 날짜 : 2026년 02월 24일
+- 완료 날짜 : 
+</details>
+
+---
+
+<h3> 플래티넘 마지막 </h3>
+
+</details>
+
+---
+
+<details>
 <summary><h2>[GOLD] 문제 목록</h2></summary>
 
  <details>

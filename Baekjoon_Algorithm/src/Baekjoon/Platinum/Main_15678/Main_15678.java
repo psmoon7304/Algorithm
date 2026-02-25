@@ -9,32 +9,27 @@ public class Main_15678 {
     static StringTokenizer st;
 
     static int N, D, pos, firstPointer, lastPointer;
-    static int[] numList;
+    static long[] dp;
     static int[] indexList;
     static boolean[] isVisited;
 
     private static Long getAnswer() throws Exception {
-        Long answer = 0L;
         Long realAnswer = Long.MIN_VALUE;
         st = new StringTokenizer(br.readLine().trim());
         for(int i = 1; i <= N; i++) {
             int value = Integer.parseInt(st.nextToken());
-            numList[i] = value;
-            if(value >= 0) {
-                pos = i;
-                answer += value;
-                realAnswer = Math.max(answer ,realAnswer);
-            } else {
-                while(firstPointer < lastPointer && numList[indexList[lastPointer - 1]] <= numList[i]) {
-                    lastPointer--;
-                }
-                indexList[lastPointer++] = i;
-                if(pos <= i - D) {
-                    pos = indexList[firstPointer];
-                    answer += numList[indexList[firstPointer++]];
-                    realAnswer = Math.max(answer ,realAnswer);
-                }
+            if(firstPointer < lastPointer && indexList[firstPointer] < i - D) {
+                firstPointer++;
             }
+
+            long tempValue = (firstPointer < lastPointer) ? dp[indexList[firstPointer]] : 0;
+            dp[i] = value + Math.max(0, tempValue);
+            realAnswer = Math.max(realAnswer, dp[i]);
+
+            while(firstPointer < lastPointer && dp[indexList[lastPointer - 1]] <= dp[i]) {
+                lastPointer--;
+            }
+            indexList[lastPointer++] = i;
         }
         return realAnswer;
     }
@@ -44,7 +39,7 @@ public class Main_15678 {
         N = Integer.parseInt(st.nextToken());
         D = Integer.parseInt(st.nextToken());
 
-        numList = new int[N + 1];
+        dp = new long[N + 1];
         indexList = new int[N + 1];
         isVisited = new boolean[N + 1];
     }
